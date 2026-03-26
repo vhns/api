@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ./api.py ./
 
-CMD [ "fastapi", "./api.py" ]
+CMD [ "fastapi", "run", "./api.py" ]
